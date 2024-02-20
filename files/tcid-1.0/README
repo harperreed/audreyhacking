@@ -1,0 +1,76 @@
+Tivo Caller ID Client 1.0 (tcid)
+
+This application is used to display Caller ID information using
+Tivo's on screen display.  It is designed to work with the Caller ID
+Client/Server for Audrey. (By koreth/davinci27)
+
+tcid uses the following:
+
+	http://tivo.samba.org/download/belboz/osdtxt.tar.gz
+	blank.tiv (from the TiVo remotebash package)
+
+	CallerIDSentry protocol devised by:
+	http://home.houston.rr.com/jeffkohn/callerid_sentry.htm
+
+	Audrey Caller ID CLient/Server:
+	callerid-1.1.tar.gz
+	http://culdesac.midwinter.com:8009/audrey/
+
+
+For more information about Audrey, check out:
+
+	http://www.audreyhacking.com
+
+You need to have Caller ID service for this app to work.
+
+
+INSTALLATION/USAGE:
+
+Ftp the following files into "/hack/bin"
+
+	tcid
+	osdtxt
+	blank.tiv
+
+Make sure tcid and osdtxt are executable:
+
+	chmod +x tcid
+	chmod +x osdtxt
+
+Now to run tcid, simply type the following:
+
+	tcid <server ip>
+
+Where <server ip> is the IP of the Audrey (or any other Caller ID
+server that uses the CallerIDSentry protocol).
+
+To exit, simply hit "Control-C".
+
+I also included a copy of the Audrey CallerID Client/Server from
+koreth.  To get the latest version, check his web site.
+
+
+AUTHOR
+
+Ryan Ziolko, z976538@cs.niu.edu
+
+
+HOME PAGE
+
+http://www.cs.niu.edu/~z976538/tivo.html
+
+
+BUGS
+
+Tivo's "gethostbyname" is broken, so it can only take an IP now.
+
+
+TO DO
+
+You can't change anything via the program arguements.  I'll fix
+that really soon.  :-)
+
+
+HISTORY
+
+12/09/2001	Version 1.0 released.

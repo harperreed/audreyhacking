@@ -1,0 +1,1532 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<title>The Unofficial 3Com Audrey FAQ</title>
+</head>
+
+<body>
+
+<table border="0" cellpadding="2" width="95%">
+  <tr>
+    <td width="100%">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="3" cellspacing="3" width="100%">
+          <tr>
+            <td width="75%" valign="top"><b>
+            <font face="Times New Roman" size="5">3COM Audrey - The Unofficial 
+            Hack FAQ<br>
+              </font></b><font face="Times New Roman" size="4">Hosted by Chris
+              Russo, aka cokeguy, kneebiter, etc.<br>
+              </font><font face="Times New Roman">v1.20, Last Updated 11/18/2001 at
+              06:30 PM</font>
+      <p>This site is under construction in a very big way.&nbsp; Please be
+      patient with me, and feel free to <a href="mailto:crusso@3rdmoon.com">send
+      me any comments</a>.&nbsp; For more information on specific things I am
+      looking for, please see the section on 
+      <a href="#Contributing to this Site">Contributing to this Site</a>.</p>
+            </td>
+            <td width="25%" valign="top" align="left">
+            <img border="0" src="../images/3comaudrey.jpg" width="155" height="153"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p><i>Changes: added eight or so new sections (</i><font face="Times New Roman"><img border="0" src="images/New.gif" width="28" height="11"><i>), 
+      updated some old sections with some new information </i></font><i>(</i><font face="Times New Roman"><img border="0" src="images/New.gif" width="28" height="11"><i> 
+      updated), organized all sections by category, added some actual files to 
+      download in certain sections.</i></font></p>
+      <p><i><font face="Times New Roman">To do: create a downloads section</font></i></p>
+      <p><b><font face="Times New Roman" size="4">Table of Contents</font></b></p>
+      <p><b><font face="Times New Roman">General</font></b></p>
+      <ol>
+        <li><a href="#What is this FAQ?"><font face="Times New Roman">What is
+          the FAQ?</font></a></li>
+        <li><font face="Times New Roman"><a href="#Legal Statement">Legal
+          Statement</a></font></li>
+        <li><font face="Times New Roman"><a href="#Thanks">Thanks</a></font></li>
+        <li><a href="#Contributing to this Site">Contributing to this Site</a></li>
+        <li><font face="Times New Roman"><a href="#What is an Audrey">What is an Audrey?</a>&nbsp; </font></li>
+        <li><a href="#How can I help the Audrey community">How can I help the 
+        Audrey community?</a><font face="Times New Roman">&nbsp; </font></li>
+        <li><font face="Times New Roman"><a href="#Where can I get more information?">Where can I get more information?</a></font></li>
+        <li>
+          <p style="line-height: 100%; margin-top: 0; margin-bottom: 0"><a href="#Where can I get an Audrey?"><font face="Times New Roman">Where can I get an Audrey?</font></a></li>
+        <li><a href="#Are Audreys discontinued?"><font face="Times New Roman">Are Audrey's discontinued?</font></a></li>
+        <li><font face="Times New Roman">
+        <a href="#What operating system does Audrey use">What operating system 
+        does Audrey use?</a>&nbsp; </font></li>
+      </ol>
+      <p><b><font face="Times New Roman">For UNIX Newbies</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#What is all this vi stuff?  How do I edit using vi?">What
+          is all this vi stuff?&nbsp; How do I edit using vi?</a></font></li>
+        <li><font face="Times New Roman">
+        <a href="#Ok, I hate vi.  Is there an alternative editor">Ok, I hate vi.&nbsp; 
+        Is there an alternative editor</a>?&nbsp; </font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Initial Setup</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How do I reset my Audrey?">How
+          do I reset my Audrey?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How can I update my Audrey's Software?">How
+          can I update my Audrey's software?</a>
+          <img border="0" src="images/New.gif" width="28" height="11">&nbsp; <i>(updated)</i></font></li>
+        <li><font face="Times New Roman">
+        <a href="#I cant seem to get the last update with the shell!  Help">I 
+        can't seem to get the last update with the shell!&nbsp; Help?</a>
+          <img border="0" src="images/New.gif" width="28" height="11"></font></li>
+        <li><font face="Times New Roman"><a href="#How do I trigger a serial port update on my Audrey?">How
+          do I trigger a serial port update on my Audrey?</a></font></li>
+        <li><font face="Times New Roman">
+        <a href="#My Audrey is D.O.A.!  Now what!">My Audrey is D.O.A.!&nbsp; 
+        Now what?!</a></font></li>
+      </ol>
+      <p><b>Graphics</b></p>
+      <ol>
+        <li><a href="#Where can I get Audrey main screen images without all the text?">Where
+          can I get Audrey main screen images without all the text?</a><font face="Times New Roman">&nbsp;&nbsp; &nbsp;</font></li>
+        <li><font face="Times New Roman"><a href="#Can you give me some tips on creating my own icons?">Can
+          you give me some tips on adding my own icons?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Interface</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I bring up a shell using only the browser?">How
+          can I bring up a shell using only the browser?</a></font></li>
+        <li><font face="Times New Roman">
+        <a href="#This browser shell does not seem to allow me administrative access.  Whats up">
+        This browser shell does not seem to allow me administrative access.&nbsp; 
+        What's up?</a>
+          <img border="0" src="images/New.gif" width="28" height="11"></font></li>
+        <li><font face="Times New Roman"><a href="#Can I control the green LEDs on Audrey?">Can
+          I control the green LEDs on Audrey?</a></font></li>
+        <li><font face="Times New Roman"><a href="#Is there an on-screen keyboard available for Audrey?">Is
+          there an on-screen keyboard available for Audrey?</a>&nbsp; </font></li>
+        <li><font face="Times New Roman"><a href="#How do I change the keyboard mappings on my Audrey?">How
+          do I change the keyboard mappings on my Audrey?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How can I add buttons to the action palette of my Audrey?">How
+          can I add buttons to the action palette in my Audrey?</a><br>
+          <i>(also: How can I add shutdown and shell buttons to my Audrey's
+          palette?)</i></font></li>
+        <li><font face="Times New Roman"><a href="#How can I add mouse support to my Audrey?">How
+          can I add mouse support to my Audrey?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">The Wheel</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How do I re-enable channel content and the Audrey wheel?">How do I re-enable channel content and
+          the Audrey wheel?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Backup and Restore, Images</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I create a backup CF Image?">How
+          can I create a backup CF image?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How do I backup and restore a CF Image?">How
+          do I backup and restore a CF image?</a></font></li>
+        <li><font face="Times New Roman"><a href="#Is there an Audrey QNX image on-line?">Is
+          there an Audrey image on-line?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Remote Control</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I access my Audrey remotely from my PC?">How
+          can I access my Audrey remotely from my PC?</a></font></li>
+        <li><font face="Times New Roman"><a href="#Can I remotely control my Audrey from my PC? (and vise-versa)">Can
+          I remotely control my Audrey from my PC? (and vise-versa)</a></font></li>
+        <li><font face="Times New Roman">
+        <a href="#How can I access my Audrey via a browser on another machine">
+        How can I access my Audrey via a browser on another machine?</a>&nbsp; </font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Display</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I change the timeout or disable the screen saver on my Audrey?">How
+          do I change the timeout or disable the screen saver on my Audrey?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How do I turn the Audrey screen on and off?">How
+          do I turn the Audrey screen on and off?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How can I increase the Audrey screen color depth?">How
+          can I increase the Audrey screen color depth?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How do I get screenshots on an Audrey?">How
+          do I get screenshots on an Audrey?</a></font></li>
+      </ol>
+      <p><b>Browser</b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How do I increase the Audrey image cache size?">How
+          can I increase the Audrey image cache size?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How can I enable/disable browser pop-ups on my Audrey?">How
+          can I enable/disable browser pop-ups on my Audrey?</a></font></li>
+      </ol>
+      <p><b>E-mail</b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I change the frequency of e-mail checking on my Audrey?">How
+          can I change the frequency of e-mail checking on my Audrey?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Physical</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#Where can I put this keyboard to get it out of the way?">Where
+          can I put this keyboard to get it out of the way?</a></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">MP3 and Sound</font></b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#Can I play MP3s on my Audrey?">Can
+          I play MP3s on my Audrey?</a></font></li>
+        <li><font face="Times New Roman"><a href="#How can I improve MP3 playback quality?">How
+          can I improve MP3 playback quality?</a>&nbsp; </font></li>
+        <li><font face="Times New Roman"><a href="#Are there any web based radio stations that will work on my Audrey?">Are
+          there any web based radio stations that will work on my Audrey?</a>
+          <img border="0" src="images/New.gif" width="28" height="11"></font></li>
+      </ol>
+      <p><b><font face="Times New Roman">Ethernet and Peripherals</font></b></p>
+      <ol>
+        <li><a href="#Can I use Ethernet with my Audrey instead of the modem">
+        Can I use Ethernet with my Audrey instead of the modem?</a><font face="Times New Roman">&nbsp; </font></li>
+        <li><font face="Times New Roman"><a href="#Can I use USB Ethernet adapters other than the 3Com certified model?">Can
+          I use USB Ethernet adapters other than the 3Com certified model?</a></font></li>
+        <li><font face="Times New Roman"><a href="#Can I put a USB keyboard on my Audrey?">Can
+          I put a USB keyboard on my Audrey?</a>&nbsp; </font></li>
+        <li><font face="Times New Roman"><a href="#What kind of printers can I use with my Audrey?">What
+          kind of printers can I use with Audrey?</a></font></li>
+      </ol>
+      <p><b>Services &amp; Advanced</b></p>
+      <ol>
+        <li><font face="Times New Roman"><a href="#How can I create my own Marimba server?">How
+          can I create my own Marimba server?</a></font></li>
+        <li><font face="Times New Roman">
+        <a href="#What do I need to know to spoof the Audrey update servers DNS entries">
+        What do I need to know to spoof the Audrey update servers DNS entries?</a>&nbsp; </font></li>
+      </ol>
+      <p><b>Development</b></p>
+      <ol>
+        <li><a href="#Where can I get a QNX ISO Image?">Where can I get a QNX
+          ISO Image?</a><font face="Times New Roman">&nbsp;</font></li>
+        <li>
+        <a href="#Why are people using two different versions of QNX with the Audrey">
+        Why are people using two different versions of QNX with the Audrey?</a><font face="Times New Roman">&nbsp; </font></li>
+      </ol>
+      <p><b>Still to be answered...</b></p>
+      <ol>
+        <li><font face="Times New Roman">How much memory does Audrey have, and
+          is it upgradable?</font></li>
+        <li>How do you mount NFS drives from an Audrey?</li>
+        <li><font face="Times New Roman">Help!&nbsp; I can't seem to send mail
+          through my ISP.</font></li>
+        <li><font face="Times New Roman">Are there any Audrey accessories?</font></li>
+        <li><font face="Times New Roman">Can I sync my Palm using the Audrey IR
+          port?</font></li>
+        <li><font face="Times New Roman">Can I use ethernet with my Audrey?</font></li>
+        <li><font face="Times New Roman">How can I upgrade my Audrey's software?</font></li>
+        <li><font face="Times New Roman">What are the reasons for and against
+          updating my Audrey's software?</font></li>
+        <li><font face="Times New Roman">How can I open HTML attachments in 
+        mail?</font></li>
+      </ol>
+      <hr width="80%">
+      <p><b><a name="Legal Statement">Legal Statement</a></b></p>
+      <p>The author claims no responsibility for the information contained
+      within this FAQ.&nbsp; Anyone using this information assumes the total
+      responsibility for the results of their actions when doing so, and the
+      responsibility for any effects so caused.&nbsp; The author gives no
+      warranty, explicit or implied, as to the accuracy of this information and
+      the safety of using same.</p>
+      <p>In other words- please be careful.&nbsp; If you hack your Audrey,
+      please make sure you understand what you are doing.&nbsp; If you manage to
+      break it, you may very well be lost without support from anyone.&nbsp; I
+      put this site up to be helpful and hopefully make people happy- don't
+      embark on things that you are uncomfortable with.</p>
+      <hr width="80%">
+      <p><b><a name="Thanks">Thanks</a></b></p>
+      <p>A word of thanks to all the people out there who are going crazy
+      hacking this thing.&nbsp; It is my honest goal to give you all credit for
+      your work, so if you see something up here that you wrote, please <a href="mailto:crusso@3rdmoon.com">contact
+      me</a> and give me your information so I can give you due credit.</p>
+      <p>I would also like to give specific thanks to:</p>
+      <p>David Chen, for his very thorough compilation of a great many of the
+      articles listed below.<br>
+      Eric Faulkner, for running into my office and telling me that Audrey's
+      were on sale for <i>cheap</i>.<br>
+      Marcia Russo, for tolerating me putting one in the kitchen... oh and one
+      in the bedroom.</p>
+      <hr width="80%">
+      <p><b><a name="Contributing to this Site">Contributing to this Site</a></b></p>
+      <p>All I am trying to achieve with this site is a single and complete
+      repository of compiled information about Audrey, so if you can send me
+      information, it would be greatly appreciated and helpful.&nbsp; I give
+      credit to anyone submitting the information wherever possible.&nbsp;
+      (Sometimes I don't know who is responsible for the information.)</p>
+      <p><i>Specific things I am looking for, in order of preference:</i></p>
+      <ul>
+        <li>Step by step instructions on how to perform a specific Audrey hack.</li>
+        <li>Basic descriptions on how to perform a specific Audrey hack.</li>
+        <li>Links to other resources of a specific Audrey hack.</li>
+        <li>Whatever you got!</li>
+      </ul>
+      <p><i>Additional help I am <b>always</b> in the need of:</i></p>
+      <ul>
+        <li>Step by step versions of any instructions already described.&nbsp;
+          (I always prefer the step by step instructions, so if there is a FAQ
+          item which is here, but lacks step by step instructions and you feel
+          like writing them, that would be <b>awesome</b>!)</li>
+        <li>Corrections to any content on this site which needs adjustments.</li>
+        <li>Messages of &quot;I tested this, it worked!&quot; or &quot;I tested
+          this, I had some problems!&quot;</li>
+        <li>If you see an un-linked item in the Table of Contents, that means
+          that someone asked me the question, but I don't have the answer
+          yet.&nbsp; If you have the answer, please send it!</li>
+      </ul>
+      <p>In all cases when contributing, please let me know the following:</p>
+      <ul>
+        <li>Is this original work, or did you get it from another web site or
+          source?</li>
+        <li>If from another site or source, can you tell me who was responsible
+          for the effort?</li>
+        <li>Would you like credit for your work? (either in sending to me, doing
+          the research, documentation, etc.)</li>
+        <li>If you would like credit, would you like me to link to your email
+          address?&nbsp; Please provide it to me if so.</li>
+        <li>How would you like your name listed.&nbsp; My name is Chris Russo,
+          but I may want to be known as cokeguy.</li>
+      </ul>
+      <p>Send all information to me at <a href="mailto:cokeguy@3rdmoon.com">cokeguy@3rdmoon.com</a>.</p>
+      <hr width="80%">
+      <p><b><a name="What is an Audrey">What is an Audrey?</a></b></p>
+      <p>Or, more to the point, <i>what in the bloody blue blazes is an Audrey?!</i></p>
+      <p>An Audrey, or simply &quot;Audrey&quot; as we call here her at the Russo 
+      household, is what is commonly known as an &quot;internet appliance&quot;.&nbsp; 
+      Since you are using the internet, I'll assume you know what that is, but 
+      what does it mean to be an internet appliance?&nbsp; Well, the theory is 
+      that an appliance is a simple item in your home which has a single 
+      purpose, or a very small number of purposes.&nbsp; It is easy to use, 
+      accessible to anyone, plugs in and away you go.</p>
+      <p>Clearly, your toaster is an appliance that browns bread.&nbsp; Your 
+      refrigerator is an appliance that keeps your beer (juice, milk, film, dead 
+      bodies) cold.&nbsp; Your Audrey allows you to browse the web, send and 
+      receive e-mail, and keep a schedule handy for all members of the 
+      household.</p>
+      <p>Audrey is relatively small- about 14&quot; wide by 10&quot; tall.&nbsp; She has a 
+      ~640x480 pixel touch screen that allows you to select items and change 
+      cursor position via use of a stylus (a pen like device sticking out of the 
+      top of her like an antennae).&nbsp; The stylus is clear, but blinks a cool 
+      glowing green whenever she has mail for you or needs your attention.&nbsp; 
+      She has a small wireless keyboard which can be conveniently hung on the 
+      back of her.&nbsp; She has a couple small speakers in a metal bezel at the 
+      top, which can play whatever sounds you encounter, and can even be used to 
+      play music.&nbsp; Finally, Audrey comes in several cute colors- Linen 
+      (white), Meadow (green), Ocean (blue), Slate (gray) and Sunshine (yellow).</p>
+      <p>Here are some pictures:
+      <a title="Linen Audrey with Stylus" href="images/audrey.gif">1</a>
+      <a title="Linen Audrey with Stylus and Keyboard" href="images/aud_kb_styl.jpg">
+      2</a> 3 4 5</p>
+      <p>Common uses for an Audrey are:</p>
+      <ul>
+        <li>leaving it on your kitchen counter so you and your guests can check 
+        e-mail, search the web for recipes, etc.</li>
+        <li>leaving it in a child's room so that they can have access to the 
+        'net without the complication and maintenance requirements of a 
+        full-blown PC</li>
+        <li>giving it to people who are afraid of the internet, because it is so 
+        cute and cuddly that what have they to fear?</li>
+      </ul>
+      <p>There is also the hacker element.&nbsp; (When I say hacker, I mean a 
+      bunch of geeks like myself who love getting toys like this and digging 
+      into their insides to play, which is basically what this FAQ is dedicated 
+      to.)&nbsp; Hackers like to use the Audrey to do some pretty wild stuff.&nbsp; 
+      For example:</p>
+      <ul>
+        <li>using it as a ever-changing picture frame</li>
+        <li>using it to control lights and appliances in the house in 
+        conjunction with home automation equipment from places like
+        <a href="http://www.x10.com">X10</a> and
+        <a href="http://www.smarthome.com">SmartHome</a></li>
+        <li>using it as a baby monitor</li>
+        <li>using it as a remote control for an MP3 jukebox</li>
+        <li>using it as a remote control for other computers in the house</li>
+        <li>completely replacing the operating system with a whole new one with 
+        better functionality</li>
+        <li>planning to take over the world!</li>
+      </ul>
+      <p>Ok, I was kidding about that last one...</p>
+      <p><i>...They're Pinky... Pinky and The Brain, brain, <font size="2">
+      brain,</font> <font size="1">brain...</font></i></p>
+      <p>You can read some more articles on the Audrey at the following 
+      locations: <a href="http://www.informationweek.com/810/3com.htm">
+      Information Week</a>,
+      <a href="http://news.zdnet.co.uk/story/0,,s2082034,00.html">ZDnet</a>,
+      <a href="http://www.techtv.com/freshgear/reviews/story/0,23008,3007696,00.html">
+      TechTV</a>,
+      <a href="http://netappliances.about.com/library/weekly/aa022301a.htm#browser">
+      About.com</a></p>
+      <p>It's also important to note that Audrey has been discontinued.&nbsp; 
+      You should <a href="#Are Audreys discontinued?">read more</a> about this 
+      before deciding to buy one.</p>
+      <hr width="80%">
+      <p><b><a name="How can I help the Audrey community">How can I help the 
+      Audrey community?</a></b></p>
+      <p>The people who use and play with Audrey's are like any community of 
+      crazy people.&nbsp; They need help. :)</p>
+      <p>In all seriousness, to keep Audrey's alive and well, there are many 
+      things that the community is pretty commonly asking for.&nbsp; I am going 
+      to do my best to list these here.&nbsp; If you are interested in 
+      contributing any of these things, please post a message to the <i>&nbsp;<a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a></i> and also be sure to let me know so I can add your contribution 
+      information here on this FAQ.</p>
+      <ul>
+        <li>Additional DNS spoofing servers for 3com.marimba.net and 
+        marimba.3com.com.</li>
+        <li>On-line repository of all files that come on an Audrey so people can 
+        replace them when they mess up.</li>
+        <li>Additional Audrey Update servers.</li>
+        <li>More ways to hack the thing!</li>
+      </ul>
+      <hr width="80%">
+      <p><b><a name="What is this FAQ?"><font face="Times New Roman">What is
+      this FAQ?</font></a></b></p>
+      <p><font face="Times New Roman">This FAQ is a compilation of information
+      pertaining to the Audrey.&nbsp; I am putting it together for two
+      reasons.&nbsp; 1. I'm a helpful guy and I noticed how difficult it was to
+      glean information from all the lists and web pages and want to make it
+      easier for everyone else.&nbsp; 2. It makes it easier for me when I need
+      to or want to do any of these things for my two Audreys... and my Mom's.</font></p>
+      <p><font face="Times New Roman">It is very unlikely that anything listed
+      here is a representation of my own original work.&nbsp; In fact, the only
+      work I am doing is compiling it, and in some cases testing it.&nbsp; It is
+      my goal to give credit to each and every clever person out there who has
+      tested and posted this information so willingly.&nbsp; If you see
+      something that is yours, please <a href="mailto:crusso@3rdmoon.com">tell
+      me</a> so I can give you credit.</font></p>
+      <p><font face="Times New Roman">It is also very unlikely that I will be
+      able to (or want to) test each and every piece of information on this
+      page.&nbsp; For that reason, I will list everything as follows:</font></p>
+      <ul>
+        <li><font face="Times New Roman">Items listed with a 
+        <img border="0" src="images/BD10297_.GIF" width="15" height="15">
+          next to them have been checked by myself or an associate of mine and
+          are considered accurate by this site.</font></li>
+        <li><font face="Times New Roman">Items listed with a 
+        <img border="0" src="images/BD10298_.GIF" width="15" height="15">
+          next to them have been checked and confirmed by a person who I am not
+          personally familiar with.</font></li>
+        <li><font face="Times New Roman">All other items have not been checked
+          or confirmed to the best of my knowledge.</font></li>
+      </ul>
+      <p><font face="Times New Roman">Please understand that this is really only
+      a gauge of <i>my </i>comfort level with the information, and no indication
+      of it's accuracy or viability.</font></p>
+      <hr width="80%">
+      <p><b><a name="Where can I get more information?">Where can I get more
+      information?</a> </b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15">
+      </font></p>
+      <p><i>Audrey Sites:</i></p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="3" cellspacing="3" width="113%">
+          <tr>
+            <td width="35%" align="right" valign="top">Beginner's Audrey Page</td>
+            <td width="75%" valign="top"><a href="http://www.delphi.com/audreyapps">http://www.delphi.com/audreyapps</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Hacking the Audrey</td>
+            <td width="75%" valign="top"><a href="http://www.audreyhacking.com/">http://www.audreyhacking.com/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Audrey Buttons</td>
+            <td width="75%" valign="top"><a href="http://www.demark.org/audrey/btns/">http://www.demark.org/audrey/btns/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">QNX ISO Image</td>
+            <td width="75%" valign="top"><a href="http://www.blight.com/~tony/audry_qnx.html">http://www.blight.com/~tony/audry_qnx.html</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top"></td>
+            <td width="75%" valign="top"><a href="http://mehling.org/audrey/files/">http://mehling.org/audrey/files/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Sowbug's Audrey Page</td>
+            <td width="75%" valign="top"><a href="http://www.sowbug.com/audrey/">http://www.sowbug.com/audrey/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Co-Developers of the
+              Audrey</td>
+            <td width="75%" valign="top"><a href="http://www.sterling1.com/">  http://www.sterling1.com/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">JLang's Audrey Filesystem
+              listing</td>
+            <td width="75%" valign="top"><a href="http://www.ece.utexas.edu/~jlang/audrey/">http://www.ece.utexas.edu/~jlang/audrey/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">3Com's Final Audrey FAQ</td>
+            <td width="75%" valign="top"><a href="http://www.3com.com/products/en_US/detail.jsp?tab=support&amp;pathtype=support&amp;sku=3C8300AUWHT-01">*link
+              concatenated to save space</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">SourceForge's
+              Audrey/Linux Project</td>
+            <td width="75%" valign="top"><a href="http://sourceforge.net/projects/audrey-linux/">http://sourceforge.net/projects/audrey-linux/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Robert's Audrey Page</td>
+            <td width="75%" valign="top"><a href="http://www.canoma.com/audrey/">http://www.canoma.com/audrey/</a></td>
+          </tr>
+          <tr>
+            <td width="35%" align="right" valign="top">Complete Listing of
+              Audrey Dir Structure</td>
+            <td width="75%" valign="top"><a href="http://www.ece.utexas.edu/~jlang/audrey/">http://www.ece.utexas.edu/~jlang/audrey/</a></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p><i>QNX Sites</i></p>
+      <hr width="80%">
+      <p><b><a name="Are Audreys discontinued?"><font face="Times New Roman">Are
+      Audreys discontinued?</font></a><font face="Times New Roman"> </font></b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15">
+      </font></p>
+      <p><font face="Times New Roman">Yes.&nbsp; After a very short lifespan,
+      3Com Discontinued the Audrey in mid/late 2001.</font></p>
+      <p><font face="Times New Roman">For more information on 3Com's official
+      position on this issue, please see their corpoarate Audrey FAQ at <a href="http://www.3com.com/products/en_US/discontinued/audreyqa.html">http://www.3com.com/products/en_US/discontinued/audreyqa.html</a>.</font></p>
+      <p><font face="Times New Roman">In short, if you purchase an Audrey, you
+      are largely on your own.&nbsp; There is a community of Audrey fans and
+      hackers which is developing rather quickly, but if your Audrey breaks you
+      may very well be unable to replace it through any standard corporate
+      support methods.</font></p>
+      <hr width="80%">
+      <p><b><a name="Where can I get an Audrey?"><font face="Times New Roman">Where
+      can I get an Audrey?</font></a><font face="Times New Roman"> </font></b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15">
+      </font></p>
+      <p><font face="Times New Roman">Presently, Audreys can be purchased at <a href="http://www.tigerdirect.com">TigerDirect</a>
+      (search for the word Audrey).&nbsp; At last check, they had an exclusive
+      with Compaq and were selling them new and in-box for $89.99, and the USB
+      ethernet adapter for $29.99.</font></p>
+      <p><font face="Times New Roman">You can also purchase Audreys through
+      auction on <a href="http://www.ebay.com">ebay</a> and other auction
+      websites.&nbsp; Needless to say, prices and conditions will vary.</font></p>
+      <hr width="80%">
+      <p><b><font face="Times New Roman">
+      <a name="What operating system does Audrey use">What operating system does 
+      Audrey use?</a></font></b></p>
+      <p><i><font face="Times New Roman">Thanks to Keith Benoit for providing 
+      the information.<br>
+      Thanks to sowbug </font>on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">
+      I-Appliance BBS</a> for the research.<font face="Times New Roman"> </font>
+      </i></p>
+      <p><font face="Times New Roman">QNX 6.0 embedded, with Neutrino kernel and 
+      Photo GUI manager. The current version of QNX is 6.1, but Audrey was 
+      developed with and uses QNX 6.0. Running selected QNX 6.1 binaries on 
+      Audrey is possible, provided you have downloaded and linked in the 
+      required QNX 6.1 shared object library (.so) files.</font></p>
+      <hr width="80%">
+      <p><b><a name="How do I trigger a serial port update on my Audrey?">How do
+      I trigger a serial port update on my Audrey?</a></b></p>
+      <p>If you hold down the mail and datebook buttons while plugging in the
+      Audrey, it comes up saying "Ready to load image from serial port".</p>
+      <hr width="80%">
+      <p><b><a name="How do I reset my Audrey?">How do I reset my Audrey?</a></b></p>
+      <p><i>Thanks to tdemark on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">
+      I-Appliance BBS</a>.</i></p>
+      <p><span style="color: black"><font color="black">Press the Action button
+      and select &quot;Audrey Options&quot;.<br>
+      Using the &quot;Password&quot; <span class="GramE">feature,</span> set a
+      password for the device and put her to sleep.<br>
+      Wake her up and enter the *wrong* password three times.&nbsp;</font></span></p>
+      <p><span style="color: black"><font color="black">* WARNING * <span class="GramE">This</span>
+      will blow all your data away<br>
+      * WARNING #2 * <span class="GramE">This</span> is *a* way of <span class="SpellE">reseting</span>
+      Audrey - but I will not vouch that it is *the* way you are looking for.
+      (Ex: You've upgraded to the most recent OS with the shell hack, does this
+      affect the OS in any way -- I don't know. If you modify a file via the
+      shell and do this, will the directory revert -- I don't know.) All I can
+      say for sure is that doing this with the original OS removed all data that
+      I entered via the GUI.</font></span></p>
+      <hr width="80%">
+      <p><b><a name="How do I change the keyboard mappings on my Audrey?">How do
+      I change the keyboard mappings on my Audrey?</a></b></p>
+      <font color="#000000" face="Times New Roman">Okay, so I took a break from
+      looking into writing a block device driver for the compact flash and
+      worked on getting a better keyboard file for the Audrey. After writing a
+      photon app to capture the scan codes and a little reverse engineering of
+      what was actually being sent I finally came up with a useful
+      <a href="files/AudreyKB_replacement.tar.gz">keyboard
+      file</a>.</font>
+      <p><font color="#000000" face="Times New Roman">I changed the mapping of
+      the following keys:<br>
+      'Snapshot' -&gt; 'Esc' (it was a fluke that it was working as Esc)<br>
+      'Copy' -&gt; 'Ctrl'<br>
+      'Paste' -&gt; 'Alt'</font>
+      <p><font color="#000000" face="Times New Roman">This will make it a little
+      easier for some of those cut and paste shortcuts not to mention sending a
+      ^C.</font>
+      <p><font color="#000000" face="Times New Roman">While I was working on
+      this I found that they somehow have the buttons sending F# key symbols to
+      photon independent of the keyboard file. The other bad thing is that they
+      appear not to accept Ctrl or Alt modifiers which would make them more
+      useful. The scan codes the buttons produce are pretty screwy.</font>
+      <p><font color="#000000" face="Times New Roman"><i>Now for the
+      installation instructions:</i></font></p>
+      <p><font color="#000000" face="Times New Roman">Get the audrey.kbd file
+      from (?) and copy it to /nto/photon/keyboard/en_US_101.kbd.</font>
+      <p><font color="#000000" face="Times New Roman">Now do one of the
+      following...</font>
+      <p><font color="#000000" face="Times New Roman">Option 1. Run ps | grep
+      devi-k (or ps | more and look for the devi-kojak process). Then run
+      &quot;kill &lt;pid&gt; ; /kojak/devi-kojak -b touch ir&quot;, where &lt;pid&gt;
+      is the devi-kojak process id, all on one command line. Your pterms should
+      now be using the new keyboard layout.</font>
+      <p><font color="#000000" face="Times New Roman">Option 2. Run 'shutdown'
+      or reboot the Audrey in your favorite manner.</font><font color="#000000" face="Verdana" size="2"><br>
+      </font>
+      <hr width="80%">
+      <p><b><font face="Times New Roman">
+      <a name="My Audrey is D.O.A.!  Now what!">My Audrey is D.O.A.!&nbsp; Now 
+      what?!</a></font></b></p>
+      <p><font face="Times New Roman">Assuming that you purchased your Audrey 
+      from <a href="http://www.tigerdirect.com">TigerDirect.com</a>, you are 
+      probably aware that they have a &quot;no returns&quot; policy on discontinued items 
+      like the Audrey, and you are probably now panicking.</font></p>
+      <p><font face="Times New Roman">Don't worry!&nbsp;
+      <a href="mailto:me@lonnypaul.com?subject=Help!  Audrey is DOA!">Lonny Paul</a>, 
+      the Director of e-Commerce at Tiger Direct, has said that he will be happy 
+      to help you if you are experiencing problems getting the Audrey swapped 
+      out.&nbsp; (You should probably try calling TigerDirect first so as not to 
+      bog the poor guy down with return requests- if you have a problem <i>then</i> 
+      contact him.)&nbsp; </font></p>
+      <p><font face="Times New Roman"><b>Please</b> treat this responsibly.&nbsp; 
+      Lonny is a great guy and has been very supportive of the Audrey community, 
+      but he is a business man and has better things to do with his time than 
+      listen to somebody whining about the fact that they hacked the hell out of 
+      their Audrey and it doesn't work anymore.&nbsp; Tiger's willing to swap 
+      out DOAs- not Audreys that you have broken.</font></p>
+      <p><font face="Times New Roman">Needless to say, I'm certain that his 
+      ability to assist will be based upon availability and certain other 
+      conditions.</font></p>
+      <hr width="80%">
+      <p><b><a name="Where can I get Audrey main screen images without all the text?">Where
+      can I get Audrey main screen images without all the text?</a></b></p>
+      <p><i>Thanks to cokeguy! </i>:)</p>
+      <p>I have taken the main Audrey images and removed the text.&nbsp; On one
+      of the images, I have left the &quot;Welcome&quot;, on the other, I have
+      completely cleared it off.&nbsp; You can use these as you like to create
+      your own backgrounds.</p>
+      <p>This is <i>with </i>the &quot;Welcome&quot; graphic: <a href="files/audrey_graphics/background_welcome.gif">
+      <img border="0" src="files/audrey_graphics/background_welcome_thumb.gif" width="100" height="75"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      This is without it:&nbsp; <a href="files/audrey_graphics/background_clean.gif">
+      <img border="0" src="files/audrey_graphics/background_clean_thumb.gif" width="100" height="75"></a>&nbsp;&nbsp;</p>
+      <hr width="80%">
+      <p><b><a name="Can you give me some tips on creating my own icons?">Can
+      you give me some tips on creating my own icons?</a></b></p>
+      <p><i>Thanks to tdemark on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <font color="#000000" face="Times New Roman">The font is &quot;Helvetica
+      Bold&quot; - the work was done in Photoshop with the following settings:</font>
+      <p><font color="#000000" face="Times New Roman">Text Tool -<br>
+      Font: Helvetica<br>
+      Style: Bold<br>
+      Size: 12 pixels<br>
+      Tracking: 50</font>
+      <p><font color="#000000" face="Times New Roman">Add Effect:Drop Shadow -<br>
+      Normal<br>
+      White Shadow<br>
+      Opacity: 100%<br>
+      Angle: 150 deg<br>
+      Distance: 1 pixel<br>
+      Blur: 0 pixel<br>
+      Intensity: 100%</font></p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="How can I add buttons to the action palette of my Audrey?">How
+      can I add buttons to the action palette of my Audrey?</a> </b>
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15"><br>
+      <i>(also: How do I add shutdown and shell buttons to my Audrey's Palette)</i></font></p>
+      <p><i>Thanks to tdemark and mr32 on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      Thanks to Chick Web for the note on administrative control.</i></p>
+      <p><i><b>Note:</b> This is one way to set up Audrey so that you can get a 
+      shell with administrative rights. The other way is to set the set-UID bit 
+      on the pterm program itself. (If you don't know what a set-UID bit is, 
+      then you're probably better off using this procedure. If you do, pterm is 
+      in /nto/photon/bin :-)</i></p>
+      <p><font color="#000000" face="Times New Roman">Before performing this
+      action, you must have already obtained all the latest software updates,
+      including the one that will give you a shell.&nbsp; For more information
+      on how to do this, see the section on <a href="#How can I update my Audrey's Software?">updating
+      your Audrey's software</a>.</font></p>
+      <p><font color="#000000" face="Times New Roman">This particular example
+      will show you how to add a button for shutdown and a button for bringing
+      up a shell.</font></p>
+      <ol>
+        <li><font color="#000000" face="Times New Roman"><b>Get New Button Files<br>
+          </b>The button graphics are at <a href="http://www.demark.org/audrey/btns">http://www.demark.org/audrey/btns</a>
+          . Go there and download them. They are:</font>
+          <p><font color="#000000" face="Times New Roman">shutdown_button.gif<br>
+          shutdown_button_activated.gif<br>
+          terminal_button.gif<br>
+          terminal_button_activated.gif<br>
+          </font></li>
+        <li><font color="#000000" face="Times New Roman"><b>Start a Shell<br>
+          </b>Fire up the browser and go to &quot;http://localhost/shell.shtml?pterm&quot;</font></li>
+      </ol>
+      <ol start="3">
+        <li><font color="#000000" face="Times New Roman">In the shell, type
+          &quot;cd /kojak/img/eng/config&quot; (without quotes)<br>
+          </font></li>
+        <li><font color="#000000" face="Times New Roman">From there FTP to your
+          box and download the four files:</font></li>
+      </ol>
+      <blockquote>
+        <p><font color="#000000" face="Times New Roman">shutdown_button.gif<br>
+        shutdown_button_activated.gif<br>
+        terminal_button.gif<br>
+        terminal_button_activated.gif</font>
+      </blockquote>
+      <ol start="5">
+        <li><font color="#000000" face="Times New Roman">Then, type &quot;vi /kojak/SystemPanel.init&quot;
+          to edit the System Panel config.</font></li>
+      </ol>
+      <blockquote>
+        <p><font color="#000000" face="Times New Roman">To disable any buttons
+        you would prefer not to have in the palette, comment out the config
+        lines must be commented out with a '#' character. Use the cursor keys to
+        go to the lines that begin:</font>
+        <p><font color="#000000" face="Times New Roman">For each line, hit the
+        following keys in order:</font>
+        <p><font color="#000000" face="Times New Roman">&lt;i&gt; # Puts you
+        into insert mode<br>
+        &lt;shift&gt;-&lt;3&gt; # Adds the '#' character to where the cursor is<br>
+        &lt;snap shot&gt; # Takes you out of insert mode</font>
+      </blockquote>
+      <ol start="6">
+        <li><font color="#000000" face="Times New Roman">Then, go to the line
+          that reads:</font></li>
+      </ol>
+      <blockquote>
+        <p><font color="#000000" face="Times New Roman">#end of list</font>
+        <p><font color="#000000" face="Times New Roman">And type the following:</font>
+        <p><font color="#000000" face="Times New Roman">&lt;O&gt; # That capital
+        letter 'O' - enter Open Mode in a new line above current line<br>
+        Shutdown,shutdown_button.gif,launch,/nto/bin/shutdown<br>
+        Terminal,terminal_button.gif,launch,/nto/photon/bin/pterm<br>
+        &lt;snap shot&gt; # Exit open mode<br>
+        &lt;:&gt; # Preface to command.<br>
+        &lt;w&gt; # will tell vi to write the buffer.<br>
+        &lt;q&gt; # will tell vi to quit.<br>
+        &lt;enter&gt; # will have vi actually execute the two previous commands.</font>
+        <p><i><font color="#000000" face="Times New Roman">Note: The words
+        &quot;Shutdown&quot; and &quot;Terminal&quot; at the beginning of the
+        lines above are lines of text that will be placed under each icon in the
+        palette.&nbsp; Leaving a space here will leave the comment blank.</font></i>
+        <p><font color="#000000" face="Times New Roman">Now, if you hit the
+        &quot;Action&quot; button and select &quot;Audrey Options&quot;, you
+        should have two new buttons.</font></p>
+      </blockquote>
+      <hr width="80%">
+      <p><b><a name="How can I update my Audrey's Software?"><font face="Times New Roman">How
+      can I update my Audrey's Software?</font></a><font face="Times New Roman">
+      </font></b><font face="Times New Roman"> 
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15">
+      </font></p>
+      <p><i>Thanks to tdemark on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      Thanks to Jason Roysdon for the update and the new update server.</i></p>
+      <p><font face="Times New Roman">Audrey was originally designed to update
+      herself via 3Com servers that have since been taken offline.&nbsp;
+      However, some very nice person (whose name I have not yet determined) has
+      setup a DNS spoof for the original 3Com servers, and made the updates
+      available on his machines.&nbsp; If you follow the directions below, you
+      will get the most recent software updates, along with a hack that will
+      give you shell access.&nbsp; This last update which enables shell access
+      will allow you to make other modifications to your Audrey.</font></p>
+      <font color="#000000" face="Times New Roman">This update was done on a
+      home network and using the USB/Ethernet adapter.&nbsp;&nbsp;</font>
+      <p><font color="#000000" face="Times New Roman"><b>IMPORTANT!&nbsp;</b> </font><font color="#000000" face="Times New Roman">There
+      are actually two ways to do this, the method documented here will actually
+      destroy all your settings, mail, calendar information and so on.&nbsp; <i><a href="mailto:cokeguy@3rdmoon.com">Editor's
+      Note</a>:</i> <i>I've basically described how to avoid this, but I have
+      not done it in great detail so unless you basically know what you are
+      doing, you may need to follow the more destructive route.</i></font></p>
+      <p><font color="#000000" face="Times New Roman">The software rev at this
+      point is 1.00.17.01</font></p>
+      <p><i><font color="#000000" face="Times New Roman"><a href="mailto:cokeguy@3rdmoon.com">Editor's
+      Note</a>: This is the section that will kill all your settings.&nbsp; You
+      can simply go into the ISP information screen and change this information
+      there without forcing Audrey to fail out.&nbsp; This should work just
+      fine. (It's what I did.)</font></i></p>
+      <p><font color="#000000" face="Times New Roman">(1) In the Action Palette,
+      select &quot;Password&quot;<br>
+      (2) Set the password to something, say &quot;foo&quot;<br>
+      (3) Once the password is set, put Audrey to sleep by hitting the Sleep
+      button<br>
+      (4) Wake Audrey up, and type the *WRONG* password in three times.<br>
+      (5) Let Audrey reset herself<br>
+      (6) Configure Audrey with the proper information for your home LAN, but
+      make the primary and secondary DNS servers:</font>
+      <p><font face="Times New Roman">63.172.195.4</font> <br>
+      <font face="Times New Roman">63.172.195.4</font>
+      <p><font color="#000000" face="Times New Roman">(Yes, they are both the
+      same)</font><p><font color="#000000" face="Times New Roman">(7) Allow Audrey to go out
+      and get the correct time (should be just after she starts up)<br>
+      (8) Click the &quot;Datebook&quot; button and verify the current time<br>
+      (9) Go into the &quot;Download Options&quot; section of the Actions
+      palette and set the first time to the current time plus 5 minutes (make
+      sure you set AM/PM correctly)<br>
+      (10) Hit &quot;done&quot; and then press the Sleep button.<br>
+      (11) Between 5 and 7 minutes from then, the &quot;Activity&quot; light on
+      the USB connector should start flashing occassionally (coming on for about
+      5 seconds, then going off for a few, coming on for a few seconds, etc,
+      etc). About 90 seconds after that, the screen will light up and a box
+      stating that Audrey's software is being updated. (9 files in update)</font>
+      <p><font color="#000000" face="Times New Roman">After the update, I had
+      software revision 1.02.04.01 RC24 2/5/2001</font>
+      <p><font color="#000000" face="Times New Roman">(12) Press and hold for a
+      few seconds the Mail, Action, and Browser buttons (here-to-fore known as
+      the &quot;Three Finger Salute&quot;, TFS)<br>
+      (13) A yellow box comes up saying &quot;Checking for software update&quot;<br>
+      (14) Audrey updates herself with 7 files.<br>
+      (15) She reboots herself.</font>
+      <p><font color="#000000" face="Times New Roman">After this update, I am
+      running software version 1.02.08.00 RC26 3/29/2001</font>
+      <p><font color="#000000" face="Times New Roman">(16) TFS<br>
+      (17) A yellow box comes up saying &quot;Checking for software update&quot;<br>
+      (18) Audrey updates herself (fairly quickly)</font>
+      <p><font color="#000000" face="Times New Roman">After this update, I am
+      running software version 1.02.08.01 FINAL 4/23/2001</font>
+      <p><font color="#000000" face="Times New Roman">(19) TFS<br>
+      (20) A yellow box comes up saying &quot;Checking for software update&quot;<br>
+      (21) Audrey updates herself with 3 files.</font>
+      <p><font color="#000000" face="Times New Roman">After this update, I am
+      running software version 1.02.08.01 FINAL 4/23/2001 + SHELL (I think)</font>
+      <p><font color="#000000" face="Times New Roman">(22) TFS<br>
+      (23) A yellow box comes up saying &quot;Checking for software update&quot;<br>
+      (24) A yellow box comes up saying &quot;Software is up to date&quot;<br>
+      (25) Update the DNS/network info to point to the right servers and restart
+      Audrey.</font></p>
+      <hr width="80%">
+      <p><b><font face="Times New Roman">
+      <a name="I cant seem to get the last update with the shell!  Help">I can't 
+      seem to get the last update with the shell!&nbsp; Help?</a></font></b></p>
+      <p><font face="Times New Roman">If you are using dial-up to get your 
+      updates, you may find that the final update with the shell may not come 
+      over.&nbsp; This is normal.&nbsp; You will need to find and connect your 
+      Audrey to an actual network connected to the internet to get this to work.</font></p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="How do I re-enable channel content and the Audrey wheel?">How do I re-enable channel content and
+      the Audrey wheel?</a></b></font></p>
+      <p>Go into /data/XML/Channels. You'll see the names of the channels you currently have assigned to positions. Go into any one of them, then into the .template directory, and you'll see an
+      index.shtml.&nbsp;</p>
+      <p>Then, create an index.shtml to send you to the URL of your choice!</p>
+
+        <p>cd /data/XML/Channels/ABCNews<br>
+        rm .template<br>
+        mkdir .template<br>
+        cd .template<br>
+        </p>
+
+      <p>Then make an index.shtml that redirects to <a href="http://www.abcnews.com"> www.abcnews.com</a>&nbsp;</p>
+      <p>To create the "index.shtml" file (comments in parenthesis - don't type those!):</p>
+      <p>vi index.shtml (create the file)<br>
+      O (get into insert line (and overall insert) mode using a capital O (not zero))<br>
+      (type in all this)</p>
+      <blockquote>
+        <p>&lt;html>&lt;head>&lt;meta HTTP-EQUIV="refresh" CONTENT="0;URL=http://www.abcnews.com">&lt;/head><br>
+        &lt;body>Transferring to &lt;a "href=http://www.abcnews.com">ABCNews&lt;/body><br>
+        &lt;/html>
+        </p>
+      </blockquote>
+      <p>(the body stuff with the href is helpful if you mistype the meta refresh line)<br>
+      (get out of insert/edit mode by hitting the snapshot key)<br>
+      snapshot (don't type this, hit the snapshot key!)<br>
+      :wq (write out changes and quit editor)<br>
+      exit (exit the shell)</p>
+      <p>
+      The images and suplimental files for the channels are located at /data/XML/Channels/.Channelxx/. Replace the xx with a two digit number starting with 00.</p>
+      <p>The Channel bar images are located at /data/XML/Channels/.Channel(xx)/Graphics/Graphic.gif. Each folder is set up the same and with the same filenames. Replace these images with 120 x 60 gifs.</p>
+      <p>The images located at /data/XML/Channels/.Channel(xx)/Icon/Icon.gif</p>
+      <p>The Icon directory with the Icon.gif in it is used for the user interface when selecting channels for the channel bar. I copied the single one that I had working(mkdir Icon;cp ....) into my user-defined channel, and that icon did appear in the "Select Channels" screen. So, the Graphic is for the channel bar, and the Icon is for the Selection screen.</p>
+      <p>A really interesting directory to look at is the /data/XML/Channels/.Channel(xx)/URLs/Package/ direcotry. Looking through there, I was able to find a reference to yet another site that the Audrey gets it content. It is contained in the .attributes file. It refers to a URL at www.vs.aparato.net. When I tried this url on my PC and Audrey, both displayed a bunch of XML data that looked like a DTD. I am assuming this is where the channel is updated.... Yet another interesting directory is the
+      ..../URLs/UpdateTable.</p>
+      <p>If you set a shell access via channels, you can get permissions for running utilities by:</p>
+      <p>pterm using Audrey Options<br>
+      cd /bin<br>
+      chmod a+x rm mkdir ln cat cp tar</p>
+      <p>Voila, now when you pterm from Channels, you still have full file operation!</p>
+      <p>In /kojak there are two files, boot.sh and configure.sh Inside boot.sh, there are a couple "ln" lines that create the links for the 6 core channels to point back to /data/XML/Channels/.waitingForUpdate/Template folder. If you modify this file, then whenever Audrey boots up, have the create the link for .template to the /Template folder, you can reboot and not lose the custom configured channel to your hearts desire.</p>
+      <p>OR</p>
+      <p>For unix newbies, once you get a shell, you can create a redirected link by doing the following:</p>
+      <p>1) type: cd /data/XML/Channels/ABCNews/Template<br>
+      2) type: rm .template<br>
+      3) type: ln -s /data/XML/Channels/ABCNews/Template /data/XML/Channels/ABCNews/.template</p>
+      <p>This will create a link to the current directory's Template folder. This will make it easier if you want to create customized channels. What did I do? I turned my ABCNews channel into a calculator.&nbsp;</p>
+      <p>How to do it:</p>
+      <p>### STEP 1 ###</p>
+      <p>I downloaded a Macromedia Flash calculator (http://www.flashkit.com/movies/Applications/Scientif-Digital_-89/index.shtml) This one's a pretty cool one...does binary, hex, oct, as well as a bunch of other functions that aren't available in other flash calculators I've seen.&nbsp;</p>
+      <p>### STEP 2 ###</p>
+      <p>Store the .SWF file on some web hosting service like Geocities, Xoom. (If you have an FTP client, you can probably FTP it to the Audrey and store it in the Templates folder)</p>
+      <p>### STEP 3 ###</p>
+      <p>Delete /data/XML/Channels/ABCNews/Template/index.shtml</p>
+      <p>Using VI, create a new index.shtml file and put the following:</p>
+      <blockquote>
+        <p>&lt;HTML><br>
+      &lt;HEAD><br>
+      &lt;TITLE>intro&lt;/TITLE><br>
+      &lt;/HEAD><br>
+      &lt;BODY bgcolor="#FFFFFF"><br>
+      &lt;!-- URL's used in the movie--><br>
+      &lt;!-- text used in the movie--><br>
+      &lt;OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"<br>
+      codebase="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0"<br>
+      ID=intro WIDTH=640 HEIGHT=480><br>
+      &lt;PARAM NAME=movie VALUE="intro.swf"> &lt;PARAM NAME=loop VALUE=false><br>
+      &lt;PARAM NAME=menu VALUE=false> &lt;PARAM NAME=quality VALUE=high><br>
+      &lt;PARAM NAME=bgcolor VALUE=#AEC1C5><br>
+      &lt;EMBED src="http://www.geocities.com/MYWEBPAGE/CALCULATOR.SWF" loop=false menu=false quality=high bgcolor=#FFFFF WIDTH=640 HEIGHT=480 TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"><br>
+      &lt;/EMBED><br>
+      &lt;/OBJECT><br>
+      &lt;/BODY><br>
+      &lt;/HTML></p>
+      </blockquote>
+      <p>Now, make a note of the "&lt;EMBED Src=" line. Put in the URL for where you're storing the .SWF file. If it's local (ie: Template folder) then just put
+      CALCULATOR.SWF.</p>
+      <p>This should work with any ShockWaveFlash file, so just think of the possibilities here....games, To-Do list (hey, anyone good enough to create one that links to Yahoo Notepad or Yahoo Calendar)? Hey, maybe someone would like to make a
+      YahooMessenger.SWF?&nbsp;</p>
+      <p>Some other cool Flash files from www.flashkit.com:<br>
+      Picture Frame/Image Slider<br>
+      <a href="http://www.flashkit.com/movies/Interfaces/Image_sl-Gert_Sta-4535/index.shtml">http://www.flashkit.com/movies/Interfaces/Image_sl-Gert_Sta-4535/index.shtml</a></p>
+      <p>Connection Speed<br>
+      <a href="http://www.flashkit.com/movies/Applications/Connect_-Joscha_F-260/index.shtml">http://www.flashkit.com/movies/Applications/Connect_-Joscha_F-260/index.shtml</a></p>
+      <p>NoticeBoard (don't know if this will work, it writes to a file)<br>
+      <a href="http://www.flashkit.com/movies/Applications/shNotice-Seungho_-4711/index.shtml">http://www.flashkit.com/movies/Applications/shNotice-Seungho_-4711/index.shtml</a></p>
+      <p>Guitar Tuner<br>
+      <a href="http://www.flashkit.com/movies/Applications/Easy_gui-Ricardo_-3973/index.shtml">http://www.flashkit.com/movies/Applications/Easy_gui-Ricardo_-3973/index.shtml</a></p>
+      <p>Flash Chatster (???)<br>
+      <a href="http://www.flashkit.com/movies/Applications/Flashste-Brent_Zi-1921/index.shtml">http://www.flashkit.com/movies/Applications/Flashste-Brent_Zi-1921/index.shtml</a></p>
+      <p>PaintBox (for the kids)<br>
+      <a href="http://www.flashkit.com/movies/Applications/paintbox-Lys_Maru-1755/index.shtml">http://www.flashkit.com/movies/Applications/paintbox-Lys_Maru-1755/index.shtml</a></p>
+      <p>Sketchpad<br>
+      <a href="http://www.flashkit.com/movies/Applications/Full_Ske-Ryan_Cam-22/index.shtml">http://www.flashkit.com/movies/Applications/Full_Ske-Ryan_Cam-22/index.shtml</a></p>
+      <p>Google Search Interface<br>
+      <a href="http://www.flashkit.com/movies/Applications/Flash_5_-Matthew_-1239/index.shtml">http://www.flashkit.com/movies/Applications/Flash_5_-Matthew_-1239/index.shtml</a></p>
+      <p>ICQ Instant Message<br>
+      <a href="http://www.flashkit.com/movies/Applications/ICQ_inst-Clayton_-603/index.shtml">http://www.flashkit.com/movies/Applications/ICQ_inst-Clayton_-603/index.shtml</a></p>
+      <p>DJ Mixer<br>
+      <a href="http://www.flashkit.com/movies/Sound/Flash_DJ-Gareth_S-1571/index.shtml">http://www.flashkit.com/movies/Sound/Flash_DJ-Gareth_S-1571/index.shtml</a></p>
+      <p>Talking Clock<br>
+      <a href="http://www.flashkit.com/movies/Utilities/Time/The_Talk-Ido_Zuck-4365/index.shtml">http://www.flashkit.com/movies/Utilities/Time/The_Talk-Ido_Zuck-4365/index.shtml</a></p>
+      <p>Mickey's Duck Hunt<br>
+      <a href="http://www.flashkit.com/movies/Games/Full_Game_Source/Mickeys_-Mickey_D-4016/index.shtml">http://www.flashkit.com/movies/Games/Full_Game_Source/Mickeys_-Mickey_D-4016/index.shtml</a></p>
+      <hr width="80%">
+      <p><b><a name="How can I add mouse support to my Audrey?">How can I add
+      mouse support to my Audrey?</a> </b><font face="Times New Roman">
+      <img border="0" src="images/BD10298_.GIF" width="15" height="15"></font></p>
+      <p><i>To use a USB mouse:</i></p>
+      <p>devu-ohci &amp;<br>
+      devu-mouse &amp;<br>
+      devi-hirun msoft fd -d/dev/usbmouse0 &amp;</p>
+      <p><i>To use a serial mouse:</i></p>
+      <p>devi-hirun msoft fd -d /dev/ser1 &amp;<br>
+      <br>
+      Note, you won't have a visible on screen mouse cursor.</p>
+      <hr width="80%">
+      <p><b><a name="How can I create a backup CF Image?">How can I create a
+      backup CF Image?</a> </b><font face="Times New Roman"> 
+      <img border="0" src="images/BD10298_.GIF" width="15" height="15"><br>
+      </font><i>This procedure was certified by David Chen.</i></p>
+      <p>For a normal image (ie, doesn't touch the IPL), you would get fs0p0 and 
+      fs0p1 from the Audrey shell. You would concatenate these (copy /b 
+      fs0p0+fs0p1 /b cf-image.bin or cat fs0p0 fs0p1 > cf-image.bin ). Then, get Sowbug's mkcf utility from his 'hack' page, and follow the instructions there.&nbsp;</p>
+      <p>To put the image on a CF card, I'm using a Sandisk ImageMate CF Reader/Write (SDDR-31), with a Sandisk 32MB flash card. I'm using this under Windows 2000 since USB support under Linux for these devices just isn't working too well. So I have modification of the 'ntrw' utility at
+      <a href="http://www.audreyhacking.com/~scythic">http://www.audreyhacking.com/~scythic</a> which will read/write to a raw disk.</p>
+      <p>For my case, it's H: so I did: ntrw read size.img H:<br>
+      This gives me a file size of 32112640 (ignore any errors that NTRW produces)&nbsp;
+      Now, run the mkcf to get a correct checksum mkcf cf-image.bin cf-image.cf 32112640
+      Finally, write it to disk ntrw write cf-image.cf H:</p>
+      <p>Now, take the CF to the Audrey, power it off, stick it in (label facing towards the back), power the Audrey on while holding BOTH date-book and sleep.</p>
+      <hr width="80%">
+      <p><b><a name="How do I backup and restore a CF Image?">How do I backup
+      and restore a CF Image?</a> </b><font face="Times New Roman"> 
+      <img border="0" src="images/BD10298_.GIF" width="15" height="15"></font></p>
+      <p><i>Thanks to suicidal on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      This procedure was certified by David Chen.</i></p>
+      <p>This is assuming that you have an Audrey updated to the Final version
+      w/ Shell activated and Pterm active. CF card was straight out of the box,
+      no formatting or alteration performed.</p>
+      <p><i>CF Backup:</i></p>
+      <p>1. Started a pterm via the Actions Palette.<br>
+      2. Insert my generic 64Mb compact flash, it said 'CF inserted: 31493616
+      bytes (30755 kB, 30 MB)'<br>
+      3. Typed: devb-cf<br>
+      4. Typed: cd /dev<br>
+      5. Typed: cat fs0p0 fs0p1 fs0p2 &gt; /dev/cf</p>
+      <p>Backing up takes about 2-3 minutes.</p>
+      <p><br>
+      <i>CF Restore:</i></p>
+      <p>1) Unplugged the Audrey<br>
+      2) Inserted the CF Card I made earlier<br>
+      3) Made sure at least 1 min had elapsed from the time I first unplugged<br>
+      4) Held down the Datebook AND Power buttons<br>
+      5) Plugged the sucker back in....After a message indicating that the Flash
+      Loader was being read and a short Flash Erase/Flash Write sequence (is the
+      Flash Loader module re-flashing itself from the CF to the Audrey Flash ROM
+      at this point?), it then cleared the screen and started a second longer
+      Flash Erase followed by a Flash Write sequence. After which it cleared the
+      screen again and instructed me to remove the CF Card. After which I was
+      instructed to Unplug the Audrey.<br>
+      6) Wait at least 30 sec, and then plugged in again and everything should
+      be restored to previous flashed state.</p>
+      <p>BTW, the CF card I used is labled on the front as: SanDisk 32 MB
+      CompactFlash</p>
+      <p>On the back: SanDisk CE SDCFB 99 SanDisk</p>
+      <p>Barcode: SDCFB-32-455 (top of Barcode), 6...19659 01155...0 (Bottom of
+      Barcode), 80-56-00317-32 (Below that).</p>
+      <hr width="80%">
+      <p><b><a name="What is all this vi stuff?  How do I edit using vi?">What
+      is all this vi stuff?&nbsp; How do I edit using vi?</a> </b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15"></font></p>
+      <p>vi is a simple, yet powerful, text editor which is included with pretty
+      much any UNIX-style operating system.&nbsp; It is modal, which can be a
+      little confusing for some people, but you can learn the basics and get by
+      reasonably well when hacking your Audrey.</p>
+      <p>When you first start vi, you will be in navigation only mode.&nbsp;
+      This means you can move your cursor around the file to view it or position
+      it for when you are ready to make changes.</p>
+      <p>&quot;i&quot; will put you in insert mode.&nbsp; This will allow you to
+      insert characters wherever your cursor is.<br>
+      &quot;o&quot; will insert a new line, then put you in insert mode.<br>
+      the snapshot key will get you out of insert mode.<br>
+      &quot;x&quot; will delete a single character.<br>
+      &quot;dd&quot; will delete an entire line.<br>
+      &quot;:wq&quot; will write and quit out.<br>
+      &quot;q!&quot; will quit without saving.<br>
+      </p>
+      <p>Go to <a href="http://www.cec.mtu.edu/newuserdoc/node9.html">http://www.cec.mtu.edu/newuserdoc/node9.html</a>
+      for more vi commands.</p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b>
+      <a name="Ok, I hate vi.  Is there an alternative editor">Ok, I hate vi.&nbsp; 
+      Is there an alternative editor</a></b>? 
+      <img border="0" src="images/BD10298_.GIF" width="15" height="15"></font></p>
+      <p><i><font face="Times New Roman">Thanks to David Chen.</font></i></p>
+      <p><font face="Times New Roman">Well, just put <a href="files/ped/ped.dat">
+      ped</a> into the /nto/photon/bin directory and ran it, it runs just fine 
+      from the hacked Audrey. Cool, it is much easier to use than vi, kinda like 
+      wordpad in window$ and allows for auto indent, block formatting, fonts and 
+      font sizes, text formatting, etc.</font></p>
+      <p><font face="Times New Roman">I think it is in this file:
+      <a href="http://www.audreyhacking.com/files/QNX6_misc.tar.gz">
+      http://www.audreyhacking.com/files/QNX6_misc.tar.gz</a><br>
+      If not, look here:
+      <a href="http://www.audreyhacking.com/files/QNX6_shell_tools.tar.gz">
+      http://www.audreyhacking.com/files/QNX6_shell_tools.tar.gz</a></font></p>
+      <p><font face="Times New Roman">I have made some new icons included as an 
+      attachment.(<a href="files/ped/ped_button.gif">standard</a> and
+      <a href="files/ped/ped_button_activated.gif">activated</a>)</font></p>
+      <p><font face="Times New Roman">Now you even have a word processor! I'm 
+      happy b/c I was a complete klutz whenever I was using vi, guess I'm not 
+      hardcore enough.</font></p>
+      <p><font face="Times New Roman">Note that this hack needs a working &quot;ALT&quot; 
+      key which you can get by
+      <a href="#How do I change the keyboard mappings on my Audrey?">changing 
+      the keyboard definition</a>. (you may need to use this
+      <a href="files/ped/audrey.kbd">specific file</a>, someone please
+      <a href="mailto:cokeguy@3rdmoon.com?subject=PED Keyboard Mapping File">let 
+      me know</a>)</font></p>
+      <p><font face="Times New Roman">You will also need to add the &quot;mv&quot; (move) 
+      command by installing <a href="files/mv.dat">this file</a> into /nto/photon/bin.</font></p>
+      <hr width="80%">
+      <p><b><a name="How can I access my Audrey remotely from my PC?">How can I
+      access my Audrey remotely from my PC?</a></b></p>
+      <p>Now, the parameter -i is used on the Audrey to limit it to talking to 127.1 (localhost). Simply remove that parameter from the slinger line in /config/rm-apps, and you can access Audrey from your PC.</p>
+      <p>cd /config<br>
+      vi rm-apps<br>
+      (I recommend making a backup first)<br>
+      (about the 14th line is: rb,/kojak/kojak-slinger, -c -e -s -i 127.1)<br>
+      (deleting the "-i 127.1" will allow it to respond to ANY request) (x under VI deletes character under cursor)<br>
+      :wq<br>
+      shutdown or unplug Audrey for a clean start</p>
+      <p>Voila! You can browse it using its IP address (obtainable under Audrey Options About profile)</p>
+      <p><i>Example using my Audrey:</i><br>
+      http://192.168.1.122/Channels/.Channel00/.template/index.shtml<br>
+      yields the Audrey "home" page! (and correctly, if you shrink your window to Audrey's size.)</p>
+      <p>You can likewise run cgi from here, so:<br>
+      http://localhost/cgi-bin/GetSystemValue?kcrontab<br>
+      becomes<br>
+      http://192.168.1.122/cgi-bin/GetSystemValue?kcrontab<br>
+      and yields the same info you would have gotten from Audrey, using her crappy little keyboard.<br>
+      (of course, type in your own IP address instead of 192.168.1.122)</p>
+      <hr width="80%">
+      <p><b><a name="How can I change the frequency of e-mail checking on my Audrey?">How
+      can I change the frequency of e-mail checking on my Audrey?</a> </b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15"></font></p>
+      <p>In the /config diretory you will find a file <i>kcrontab.&nbsp;</i>
+      Using vi you will see a line that looks something like this:<br>
+      maild;54;*;*;*;*<br>
+      app; min; hour; day; dweek; month</p>
+      <p>You can either change the number (in this example 54) to a * and it will
+      update every minute, or you can add 12 lines all the same except for the minute
+      5 , 10 , 15 etc.... and it will update on those minutes past the hour.</p>
+      <p>Note that you will need to reboot Audrey for these changes to take
+      effect.&nbsp; Also note that if you make changes in the &quot;Download
+      Schedule&quot; applet control, that these settings may be overwritten.</p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="How can I change the timeout or disable the screen saver on my Audrey?">How
+      can I change the timeout or disable the screen saver on my Audrey?</a></b></font></p>
+      <p><font face="Times New Roman">Using vi, change change&nbsp; the value in
+      the /config/SYSTERM_ScreenSaveSecs file to the number of seconds until you
+      want the screen to turn off.</font></p>
+      <p><font face="Times New Roman">Setting a value of 0 will disable the
+      screen saver function entirely.</font></p>
+      <hr width="80%">
+      <p><b><a name="How do I turn the Audrey screen on and off?">How do I turn
+      the Audrey screen on and off?</a></b></p>
+      <p>You can use gpio to turn the screen on and off. I'm not sure if it's going into a sleep mode of any kind though. But then again, I'm not sure if the audrey ever goes into sleep mode or just turns off the screen.&nbsp;</p>
+      <p>The command is /kojak/gpio -a 0x40010004 -b6 -m3 -s opt, where opt is a number between 0 and 3. 0 turns the screen off, 1 clears the screen, 2 seems to be the same as 0, and 3 turns the screen on.</p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="How can I increase the Audrey screen color depth?">How
+      can I increase the Audrey screen color depth?</a></b></font></p>
+      <p>Setting /config/BROWSER_Use256Colors to 0 (default is 1) gets rid of the gross dithering on pictures... so far I've not seen any adverse side effects. Now this thing has serious potential as a picture frame.</p>
+      <p>Note that when the browser exits, it rewrites the config file, so you need to do this immediately after booting and before running the browser, or just popup a shell. Do a "ps". Look for the process id of the process that says "Browser" in its name. Type "kill xxx" where xxx is that process id. Edit the file. Exit the shell. Hit the browser button. No
+      need to reboot.</p>
+      <hr width="80%">
+      <p><b><a name="How do I increase the Audrey image cache size?">How do I
+      increase the Audrey image cache size?</a></b></p>
+      <p>You can increase the value in &quot;/config/BROWSER_ImageCacheSizeKB&quot; to increase the image cache size.</p>
+      <hr width="80%">
+      <p><b><a name="How can I enable/disable browser pop-ups on my Audrey?">How
+      can I enable/disable browser pop-ups on my Audrey?</a></b></p>
+      <p><i>To Enable:</i><br>
+      echo 1 > /config/BROWSER_AllowNewWindow<br>
+      and reboot&nbsp;</p>
+      <p><i>To Disable:</i><br>
+      echo 0 > /config/BROWSER_AllowNewWindow<br>
+      and reboot&nbsp;</p>
+      <hr width="80%">
+      <p><b><a name="How do I get screenshots on an Audrey?">How do I get
+      screenshots on an Audrey?</a></b></p>
+      <p><i>Thanks to dejab on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <p>You can snapshot just about anything including a pterm screen.<br>
+      Hit the action button, hit snapshot, tap and drag the area you want to
+      capture<br>
+      then send to yourself as an email or whatever. If you are in a shell
+      screen, just<br>
+      hit the browser sceen behind it and get to the action panel
+      snapshot.&nbsp;</p>
+      <hr width="80%">
+      <p><b><a name="What kind of printers can I use with my Audrey?">What kind
+      of printers can I use with my Audrey?</a></b></p>
+      <p><i>Thanks to madigan on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <font color="#000000" face="Times New Roman">According to TigerDirect,
+      supported printers are (USB):<br>
+      Canon BJC-85<br>
+      Canon BJC-85W<br>
+      Canon BJC-2100</font>
+      <p><font color="#000000" face="Times New Roman">QNX has drivers for:<br>
+      PostScript<br>
+      Canon<br>
+      Epson<br>
+      HP<br>
+      Lexmark<br>
+      </font>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="Where can I put this keyboard to get it out of the way?">Where
+      can I put this keyboard to get it out of the way?</a></b></font></p>
+      <p><font face="Times New Roman">I know it may seem silly for some, but
+      oddly enough very few people are aware that you can actually hang the
+      Audrey keyboard on the translucent cover on the back of the audrey.&nbsp;
+      (keys facing away from screen, spacebar towards the ground).</font></p>
+      <hr width="80%">
+      <p><b><a name="Can I play MP3s on my Audrey?">Can I play MP3s on my
+      Audrey?</a></b></p>
+      <p>Yes, you can.&nbsp; A number of people put a lot of work and research
+      into this one.&nbsp; It's a rather lengthy procedure, and therefore
+      somewhat impractical to duplicate here.&nbsp; However, you can find the
+      information on Robert's Audrey page at: <a href="http://www.canoma.com/audrey/mp3.html" target="_blank">http://www.canoma.com/audrey/mp3.html</a></p>
+      <hr width="80%">
+      <p><b><a name="How can I improve MP3 playback quality?">How can I improve
+      MP3 playback quality?</a></b></p>
+      <p><i>Thanks to mitalium&nbsp; on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <p>I have been annoyed by underruns (clicks, pops etc.) while playing MP3s from a shared windows directory on my audrey with
+      phplay. I have written a shell script which improves the playback quality by setting a 5Mb input buffer. This eliminates network related problems, however it adds a significant delay to the startup of the song. I do still occasionally get underruns, and almost always get them while moving windows on the
+      audrey.&nbsp;</p>
+      <p>Below is a copy of my shell script: Notice that I conditionally mount the windows shared directory. I thought it would be safer to do it here rather than in the boot scripts, since others have reported problems.</p>
+      <p>########################################<br>
+      # Run phplay with a big input buffer<br>
+      ########################################<br>
+      export MPEGAUDIOBUFFERSIZE=5000000<br>
+      export MPEGAUDIOBUFFERSTARTPERCENT=90<br>
+      export MPEGAUDIOREFILLONUNDERFLOW=YES<br>
+      if [ ! -d /share ]<br>
+      then<br>
+      /nto/bin/fs-cifs -a \<br>
+      //Tiger:192.168.0.3:/audrey_share /share \<br>
+      guest guest<br>
+      fi<br>
+      phplay &amp;</p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="Are there any web based radio stations that will work on my Audrey?">Are
+      there any web based radio stations that will work on my Audrey?</a></b></font></p>
+      <p><i>Thanks to davec, rmosko, tempestII on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      Thanks to Christopher Jirka for the updates.</i></p>
+      <p><font face="Times New Roman">Yes, here are a list of some that we know
+      of:</font></p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="3" cellspacing="3" width="100%">
+          <tr>
+            <td width="31%" align="right" valign="top">NPR Hourly Broadcast</td>
+            <td width="69%" valign="top"><a href="http://www.npr.com">http://www.npr.com</a>
+              / <a href="http://www.pbs.org/npraudio.ram">http://www.pbs.org/npraudio.ram</a>&nbsp;&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">CarTalk</td>
+            <td width="69%" valign="top"><a href="http://cartalk.cars.com/show/">http://cartalk.cars.com/show/</a>&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">BBC Radio4 Online Live
+              Feed:</td>
+            <td width="69%" valign="top"><a href="http://www.bbc.co.uk/radio4/realplayer/media/fmv5.ram">http://www.bbc.co.uk/radio4/realplayer/media/fmv5.ram</a></td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">Listings from Real Audio's Web Site</td>
+            <td width="69%" valign="top"><a href="http://realguide.real.com/tuner/">http://realguide.real.com/tuner/</a></td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">WFMU</td>
+            <td width="69%" valign="top"><a href="http://www.wfmu.org">http://www.wfmu.org</a></td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">Radio Free Akron</td>
+            <td width="69%" valign="top">
+            <a href="http://www.RadioFreeAkron.com/html/now_playing/">
+            http://www.RadioFreeAkron.com/html/now_playing/</a></td>
+          </tr>
+          <tr>
+            <td width="31%" align="right" valign="top">Audio Stream for PHPlay</td>
+            <td width="69%" valign="top">
+            <a href="http://RadioFreeAkron.dnsalias.org:8000">
+            http://RadioFreeAkron.dnsalias.org:8000</a></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <hr width="80%">
+      <p><b><a name="Can I use Ethernet with my Audrey instead of the modem">Can 
+      I use Ethernet with my Audrey instead of the modem?</a></b></p>
+      <p><i>Thanks to Keith Benoit for providing this information.<br>
+      Thanks to codeman on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a> for research.</i></p>
+      <p>Absolutely, with some limitations. </p>
+      <p>Audrey's original Ethernet adapter was a USB to 10-Base-T unit, 3COM 
+      model number 3C19250. This unit is actually a 3COM OEM version of the 
+      Kawasaki LSI KL5KUSB101 Ethernet adapter.&nbsp; Similar units are: LinkSys 
+      USB10T, Netgear EA-101, and D-Link DSB-650C.&nbsp; These units can be 
+      flash programmed to reset the Vendor_ID and Device_ID values as if they 
+      were the 3COM device, using Kawasaki LSI's &quot;qttools&quot; software. </p>
+      <p>More information is available in this thread at
+      <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Action=ShowPost&Board=3Com_Audrey&Post=217&Idle=0&Sort=0&Order=Descend&Page=0&Session=">
+      linux-hacker.net</a>.</p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="Can I use USB Ethernet adapters other than the 3Com certified model?">Can
+      I use USB Ethernet adapters other than the 3Com certified model?</a></b></font></p>
+      <p><i>Thanks to codeman on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <font color="#000000" face="Times New Roman">Ok i just did this on my
+      Linksys usb10t but should work with other kawi usb adapters.<br>
+      All you have to do is change the vender and prod id in the eeprom</font>.
+      <p><font color="#000000" face="Times New Roman">So here we go...</font></p>
+      <p><font color="#000000" face="Times New Roman">On a Windows box goto <a href="http://www.klsi.com/drivers/index.htm" target="_blank">http://www.klsi.com/drivers/index.htm</a>
+      and download qttools.zip.<br>
+      Unzip it in Windows and edit qtprog.inf and add this line with the others
+      (this is the vendor and prod number for linksys usb10t).<br>
+      %String29%=QTProg,USB\VID_066b&amp;PID_2202<br>
+      Now plug in you usb adapter and when it looks for the driver point it to
+      the qttools dir and it will load the qtprog driver.<br>
+      Then run macparse.exe and click read eeprom button.<br>
+      Click the allow change mfg info box.<br>
+      Then change the vid to 0506 and change the pid to 03e8 (3com id numbers).<br>
+      You can change the manufacturer and prod name if you like does not matter.<br>
+      Last, click write eeprom and wait for it to finish.<br>
+      Click read eeprom again to make sure it did reprogram.</font></p>
+      <p><font color="#000000" face="Times New Roman">Plug it into you Audrey
+      and get on the net !!</font></p>
+      <p><font color="#000000" face="Times New Roman">More vendor product ids
+      and codes can be found here:</font></p>
+      <p><a href="http://www.hiru.aoba.yokohama.jp/~ura/USB/usbether.html">http://www.hiru.aoba.yokohama.jp/~ura/USB/usbether.html</a></p>
+      <hr width="80%">
+      <p><font face="Times New Roman"><b><a name="Can I control the green LEDs on Audrey?">Can
+      I control the green LEDs on Audrey?</a></b></font></p>
+      <p><i>Thanks to jklm and rseidl on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <p><font color="#000000" face="Times New Roman">Turn it on: <a href="http://localhost/cgi-bin/SetLEDState?2" target="_blank">http://localhost/cgi-bin/SetLEDState?2</a><br>
+      Make it blink: <a href="http://localhost/cgi-bin/SetLEDState?1" target="_blank">http://localhost/cgi-bin/SetLEDState?1</a><br>
+      Turn it off: <a href="http://localhost/cgi-bin/SetLEDState?0" target="_blank">http://localhost/cgi-bin/SetLEDState?0</a></font></p>
+      <font color="#000000" face="Times New Roman">create /data/XML/led.shtml
+      as:</font>
+      <p><font color="#000000" face="Times New Roman">&lt;html&gt;&lt;head&gt;&lt;title&gt;LED&lt;/title&gt;&lt;/head&gt;&lt;body&gt;<br>
+      &lt;!--#exec cmd=&quot;SetLEDState $QUERY_STRING&quot; --&gt;<br>
+      &lt;/body&gt;&lt;/html&gt;</font>
+      <p><font color="#000000" face="Times New Roman"><i>To test:</i><br>
+      http://localhost/led.shtml?0 off<br>
+      http://localhost/led.shtml?1 Blink<br>
+      http://localhost/led.shtml?2 On</font></p>
+      <hr width="80%">
+      <p>
+      <b><a name="Is there an on-screen keyboard available for Audrey?">Is there
+      an on-screen keyboard available for Audrey?</a></b>
+      </p>
+      <p><i>Thanks to Keith_D on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <p><i>Note: Keith_D is credited with developing the first native Audrey 
+      application!</i></p>
+      <p>After digging in and learning the QNX development environment, I've 
+      completed my first audrey application. It is an onscreen keyboard that 
+      allows you to enter text into *any* application. With it you can use your 
+      Audrey without the keyboard and still enter text. It also has keys that 
+      the real keyboard does not even have like ctrl, alt, esc so you can use 
+      them without hacking your keyboard definition file.</p>
+      <p>The executable is only 27K and is built with QNX 6.0 so you don't need 
+      anything other than the executable.</p>
+      <p>More info, screen shots, and the download are at:
+      <a href="http://www.keithandgina.com/audrey">
+      http://www.keithandgina.com/audrey</a></p>
+      <p>Note, unlike my first approach using JavaScript to get a simple on 
+      screen keyboard, this is a native Audrey app.</p>
+      <hr width="80%">
+      <p><b><a name="Can I put a USB keyboard on my Audrey?">Can I put a USB
+      keyboard on my Audrey?</a></b></p>
+      <p><i>Thanks to <a href="mailto:rdaniel@cox.rr.com">servo</a> on <a href="http://http://www.audreyhacking.com">AudreyHacking.com</a>.</i></p>
+      <p><font face="Times New Roman">You need to have the ability to run 6.1
+      binaries. You also need to stop usb-ohci from running as that screws up
+      the usb connections. After that you need the 6.0 file devi-hirun and the
+      6.1 files devu-ohci and devu-kbd. Then run:</font></p>
+      <p><font face="Times New Roman">devu-ohci &amp;<br>
+      devu-kbd &amp;<br>
+      devi-hirun kbd -R fd -d/dev/usbkbd0 &amp;</font></p>
+      <hr width="80%">
+      <p>
+      <b><a name="How can I create my own Marimba server?">How can I create my
+      own Marimba server?</a></b>
+      </p>
+      <p><i>Thanks to scythic on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Action=ShowPost&amp;Board=3Com_Audrey&amp;Post=53&amp;Idle=0&amp;Sort=0&amp;Order=Descend&amp;Page=3&amp;Session=">Click
+      here</a> for complete thread, including discussion of creating packages.</i></p>
+      <p><font color="#000000" face="Times New Roman">Since a few people have
+      expressed interest in running a Marimba server (thank you for helping me
+      spare my miserable little 128kb/s link), I'm going to write up the
+      instructions here in the hope of just typing it in one more time.</font>&nbsp;
+      <font color="#000000" face="Times New Roman">I was going to post this
+      earlier, and others could have mirrored 3com's site, but this would have
+      caused problems while 3com's site was up.</font></p>
+      <p><font color="#000000" face="Times New Roman">WARNING - these files will
+      probably vanish off Marimba's FTP server. I won't send them to you...
+      Maybe someone else will if you are too late. You have to change into these
+      directories blindly - some windowing ftp clients won't work.</font>
+      <p><font color="#000000" face="Times New Roman"><i>For Linux:</i><br>
+      Start with ftp://ftp.marimba.com/pub/test/release.tar.gz<br>
+      Install it into /opt/castanet</font>
+      <p><font color="#000000" face="Times New Roman"><i>For Windows:<br>
+      </i>Get ftp://ftp.marimba.com/pub/installers/4.6.1.9 and get the one that
+      looks like you'll be able to use it.<br>
+      Install it.<br>
+      For the username/password/license, use this:<br>
+      Username: DEMO<br>
+      Password: DEMO<br>
+      Key: DDZPKAKKRTEGHJXHNRNUMD</font></p>
+      <p><font color="#000000" face="Times New Roman">These are both 30 day
+      trial versions.</font>
+      <p><font color="#000000" face="Times New Roman"><i>Common:<br>
+      </i>You should have Transmitter and ChannelCopier either way. If not, you
+      need to find someone willing to use ChannelCopier to upload the
+      ChannelCopier.car to your server.</font>
+      <p><font color="#000000" face="Times New Roman">Get the additional Car's
+      you need from ftp://ftp.marimba.com/pub/docs/documentum<br>
+      If you don't have Transmitter, get Transmitter.car<br>
+      If you don't have TransmitterAdministrator, get
+      TransmitterAdministrator.car<br>
+      Similarly for ChannelCopier<br>
+      If you need more than 30 days, you could get the .DAT files from that
+      directory (for Linux, they go into /opt/castanet/.marimba/ws3/licenses
+      They go into c:\winnt\marimba\ws3\licenses or similar on Windows.</font>
+      <p><font color="#000000" face="Times New Roman">Start your Transmitter
+      (right click on the Transmitter channel, and select start).<br>
+      <br>
+      With channelcopier, start a new copy (New button), on the left side select
+      the File icon (this opens a .CAR file), locate TransmitterAdministrator.
+      On the right enter http://localhost:5282 (if that fails, try
+      http://localhost:5283). You should now be able to add the copy, return to
+      the main channel copier window, and copy it over.</font>
+      <p><font color="#000000" face="Times New Roman">Now, start
+      TransmitterAdministrator and lock down your server. Set the port to 80
+      (required for Audrey). Do passwords, etc.<br>
+      You need Transmitter Administrator to (a) change the port (though you
+      could edit a file) and (b) to create folders (necessary for the Audrey
+      setup!)</font>
+      <p><font color="#000000" face="Times New Roman">Look at the directory
+      layout on http://www.sowbug.com/audrey, and replicate it on your server.
+      In other words, you need the folders:<br>
+      1.02.04.01<br>
+      1.02.08.00<br>
+      1.02.08.01<br>
+      1.02.08.03<br>
+      Add copies for all the files off my server to yours. If channelCopier is
+      reluctant to Add, you can use the 'Edit button to fix things up.</font>
+      <p><font color="#000000" face="Times New Roman">You now have a working
+      marimba server.</font></p>
+      <hr width="80%">
+      <p><b><a name="Is there an Audrey QNX image on-line?">Is there an Audrey image on-line?</a></b></p>
+      <p><i>Thanks to jayklm on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.
+      </i></p>
+      <p><font size="3">Jayklm has posted a ROM image here: <a href="http://audreyz.fizzlez.com">http://audrey.fizzlez.com</a></font></p>
+      <p><font size="3">There is a danger that if you don't do it exactly as
+      instructed, you may trash your flash loader and your Audrey will be DOA.</font></p>
+      <hr width="80%">
+      <p align="left"><b><a name="Where can I get a QNX ISO Image?">Where can I
+      get a QNX ISO Image?</a></b></p>
+      <p align="left"><i>Thanks to Keith_D on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.<br>
+      Thanks to tdthomas9 for clarification and correction on this item.<br>
+      Thanks to Chris Guthrie for additional information and the link to the 
+      image for the 6.1 ISO.</i></p>
+      <p align="left"><font size="3">The QNX</font> <font size="3">image that is
+      on the page linked below is an ISO image of the QNX 6.0 OS CDROM. getting
+      this and burning it to a CD will allow</font> <font size="3">you to
+      install QNX on a PC. this will give you an environment to pull libraries</font>
+      <font size="3">and essential files from, in addition to having a nice
+      development environment</font> <font size="3">to program for Audrey.</font></p>
+      <p align="left"><a href="http://www.blight.com/~tony/audry_qnx.html">http://www.blight.com/~tony/audry_qnx.html</a></p>
+      <p align="left"><i>Note: There have been some complaints that the ISO 
+      image above has some problems with file names being shortened and 
+      otherwise mangled.&nbsp; You may have better luck trying the link below.</i></p>
+      <font SIZE="2">
+      <p></font>
+      <a HREF="http://www.planetmirror.com/pub/qnx/qnxrtp/old/qnxrtp.iso">
+      <font COLOR="#0000ff"><u>
+      http://www.planetmirror.com/pub/qnx/qnxrtp/old/qnxrtp.iso</u></font></a></p>
+      <p>You may also want to investigate the QNX 6.1 ISO source on qnx.com:
+      <a HREF="http://get.qnx.com/"><font COLOR="#0000ff"><u>http://get.qnx.com/</u></font></a></p>
+      <hr width="80%">
+      <p><b>
+      <a name="Why are people using two different versions of QNX with the Audrey">
+      Why are people using two different versions of QNX with the Audrey?</a></b></p>
+      <p><i>Thanks to Chris Guthrie.</i></p>
+      <p>The Audrey was shipped using QNX 6.0 as the operating system. Since 
+      then, QNX has released QNX 6.1. Since it is much easier to get 6.1 many 
+      people have hacked in programs from that release. Unfortunately, using 
+      programs from 6.1 often requires installation of additional 6.1 libraries 
+      that use up valuable memory on the Audrey. Thus for any serious 
+      development, 6.0 is the preferred release.</p>
+      <hr width="80%">
+      <p align="left"><b><a name="Can I remotely control my Audrey from my PC? (and vise-versa)">Can
+      I remotely control my Audrey from my PC? (and vise-versa)</a></b></p>
+      <p align="left"><i>Thanks to the <a href="http://www.audreyhacking.com/index.php">Audrey
+      Hacking Website</a>.</i></p>
+      <p align="left">You can do this using VNC.</p>
+      <p align="left">VNC stands for Virtual Network Computing. It is, in essence, a remote display system which allows you to view a computing 'desktop' environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures.&nbsp;</p>
+      <p align="left">The latest versions of VNC and this documentation are always available from the AT&amp;T Labs Cambridge web site at
+      <a href="http://www.uk.research.att.com/vnc">http://www.uk.research.att.com/vnc</a>.&nbsp;</p>
+      <p align="left"><i>Adding VNC to your audrey&nbsp;</i></p>
+      <p align="left">First download and extract the http://www.audreyhacking.com/files/vncviewer.ph.gz file onto your audrey.&nbsp;<br>
+      chmod it +x: chmod&nbsp;<br>
+      execute it by the following command:<br>
+      ./vncviewer.ph xxx.xxx.xxx.xxx[:X]&nbsp;<br>
+      Where the xxx.xxx.xxx.xxx is your IP and the :X is the port&nbsp;<br>
+      waalaa a VNC terminal on your audrey.&nbsp;</p>
+      <hr width="80%">
+      <p align="left"><b><a name="How can I bring up a shell using only the browser?">How
+      can I bring up a shell using only the browser?</a>&nbsp; </b><font face="Times New Roman">
+      <img border="0" src="images/BD10297_.GIF" width="15" height="15"></font></p>
+      <font SIZE="2"></font>
+      <p align="left">In your browser window, simply type in the following URL: <a href="http://localhost/shell.shtml?pterm">http://localhost/shell.shtml?pterm</a></p>
+      <p align="left">Note that this shell will not allow you full
+      administrative rights on the Audrey, but will get you far enough to allow
+      you to create the <a href="#How can I add buttons to the action palette of my Audrey?">buttons</a>
+      allowing you unchecked admin access to the device.</p>
+      <hr width="80%">
+      <p align="left"><b><font face="Times New Roman">
+      <a name="This browser shell does not seem to allow me administrative access.  Whats up">
+      This browser shell does not seem to allow me administrative access.&nbsp; 
+      What's up?</a></font></b></p>
+      <p align="left"><font face="Times New Roman">The shell will not allow you 
+      full administrative control.&nbsp; The only way you can gain full 
+      administrative access is to follow the procedure on
+      <a href="#How can I add buttons to the action palette of my Audrey?">
+      Adding Buttons to the Action Applet</a>.</font></p>
+      <hr width="80%">
+      <p align="left"><b>
+      <a name="How can I access my Audrey via a browser on another machine">How 
+      can I access my Audrey via a browser on another machine?</a></b></p>
+      <p align="left">(Just so everyone understands exactly what we're talking 
+      about here, this allows another PC to send HTTP requests to the Audrey's 
+      built-in web server, meaning that the PC can run the Audrey's CGI binaries 
+      and view its channel content. It's not a telnet server, VNC server, or X 
+      client, so you can't do any RPCs or open terminals on the other PC.)</p>
+      <p align="left">The parameter -i is used on the Audrey to limit it to 
+      talking to 127.1 (localhost). Simply remove that parameter from the 
+      slinger line in /config/rm-apps, and you can access Audrey from your PC.</p>
+      <p align="left"><i>Step by Step Instructions:</i></p>
+      <p align="left">cd /config<br>
+      vi rm-apps<br>
+      (I recommend making a backup first)<br>
+      (about the 14th line is: rb,/kojak/kojak-slinger, -c -e -s -i 127.1)<br>
+      (deleting the &quot;-i 127.1&quot; will allow it to respond to ANY request) (x under 
+      VI deletes character under cursor) :wq<br>
+      shutdown or unplug Audrey for a clean start<br>
+      Voila! You can browse it using its IP address (obtainable under Audrey 
+      Options About profile)</p>
+      <p align="left"><i>Example:</i></p>
+      <p align="left">http://192.168.1.122/Channels/.Channel00/.template/index.shtml<br>
+      yields the Audrey &quot;home&quot; page! (and correctly, if you shrink your window 
+      to Audrey's size.)</p>
+      <p align="left">You can likewise run cgi from here, so:<br>
+      http://localhost/cgi-bin/GetSystemValue?kcrontab<br>
+      becomes<br>
+      http://192.168.1.122/cgi-bin/GetSystemValue?kcrontab<br>
+      and yields the same info you would have gotten from Audrey, using her 
+      crappy little keyboard.<br>
+      (of course, type in your own IP address instead of 192.168.1.122)</p>
+      <hr width="80%">
+      <p align="left"><b><font face="Times New Roman">
+      <a name="What do I need to know to spoof the Audrey update servers DNS entries">
+      What do I need to know to spoof the Audrey update servers DNS entries?</a></font></b></p>
+      <p align="left"><i><font face="Times New Roman">Thanks to madmax, scythic, 
+      kenm and a whole lot of people </font>on <a href="http://www.linux-hacker.net/cgi-bin/UltraBoard/UltraBoard.pl?Session=">I-Appliance
+      BBS</a>.</i></p>
+      <p align="left">When updating the Audrey, you need to convince her that 
+      3com.maribma.net is still alive and well.&nbsp; That's where the Audrey 
+      updates come from.&nbsp; Presently Jason Roysdon has setup a spoofing DNS server 
+      at <font color="#000000">63.172.195.4, which when you point Audrey at 
+      it, it will tell you that 3com.maribma.net is actually at 63.172.195.4.&nbsp; 
+      It is actually preferable that you point this to resolve to 2-1b.artoo.net 
+      instead of the actual IP address, so that way Jason can change the IP 
+      address at will.</font></p>
+      <p align="left">The problem is that<font color="#000000"> some people have 
+      forgotten to<b> </b>change their DNS settings back to normal after 
+      completing the updates, thus causing a lot of Audreys to use poor madmax's 
+      server and bandwidth constantly.&nbsp; Therefore, there is a chance that 
+      when you go to perform this function, you may find that madmax has taken 
+      down his service and you may have some problems.</font></p>
+      <p align="left">If you are so nervy or technically inclined, you can setup 
+      your own DNS server and create your own spoof entries for 3com.marimba.net 
+      and marimba.3com.com and point both of them to <font color="#000000">
+      63.172.195.4.&nbsp; Then you can point your Audrey to your DNS server and 
+      you should be all set.</font></p>
+      <hr width="80%">
+      <p align="center"><b>[END OF FAQ]</b></p>
+      <p>&nbsp;
+    </td>
+  </tr>
+</table>
+
+<p align="center">&nbsp;</p>
+<p align="center"><!--webbot bot="HitCounter" u-custom
+i-digits="6" i-image="4" PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;"
+i-resetvalue="16" startspan --><img src="../_vti_bin/fpcount.exe/crusso/?Page=audrey/default.htm|Image=4|Digits=6" alt="Hit Counter"><!--webbot bot="HitCounter" endspan i-checksum="45250" -->
+</p>
+
+</body>
+
+</html>
